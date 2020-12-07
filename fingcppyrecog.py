@@ -20,5 +20,6 @@ def handler(request):
     except BaseException as e:
         print(e)
         raise(e)
+        print("Test")
     
     return "Successfully executed"

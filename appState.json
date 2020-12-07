@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "fingcppyrecog.py",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 23,
+          "column": 20
         },
         "config": {
           "runtime": "python37",
@@ -27,7 +27,8 @@
             "resourceName": "http-trigger",
             "config": {}
           }
-        ]
+        ],
+        "lastUpdated": 1607335809682
       },
       "1f56e2e9-aebe-4c03-b8e4-ee1d15e8f2ea": {
         "id": "1f56e2e9-aebe-4c03-b8e4-ee1d15e8f2ea",
@@ -68,8 +69,9 @@
     },
     "customTemplate": {
       "overrideDefault": false,
-      "dialect": null,
-      "definitions": null
+      "dialect": "Deployment Manager",
+      "definitions": null,
+      "syntax": "JSON"
     },
     "envVariables": [
       {
@@ -118,6 +120,7 @@
     }
   },
   "PROJECT_META": {
+    "sigmaVersion": "1.4.6.1",
     "projectName": "fingcppyrecog",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -127,7 +130,7 @@
     "platformRegions": {
       "AWS": "us-east-1"
     },
-    "lastSave": 1589182808016
+    "lastSave": 1607335836348
   },
   "VCS_STATE": {
     "provider": "GitHub",
